@@ -1,0 +1,91 @@
+:root {
+  font-family: Inter, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #23252C;
+}
+
+.card{
+  background-color: #1A1B21;
+  margin: 0 auto 0 auto;
+  width: 400px;
+  border: 1px dotted #161619;
+  border-radius: 5px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.9);
+}
+
+.personal-section{
+  text-align: center;
+}
+
+.profile-picture{
+  border-radius: 125px;
+  margin-top: 10px;
+  max-width: 100%;
+  height: 250px;
+}
+
+p{
+  font-size: 12px;
+}
+
+.designation{
+  color: #F3BF99;
+  margin-top: -20px;
+  margin-bottom: 5px;
+}
+
+a{
+  padding: 8px 30px;
+  text-decoration: none;
+  border-radius: 5px;;
+  font-size: 15px;
+  margin-top: 5px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.btn-email{
+  background-color: #FFFFFF;
+  color: #374151;
+  margin-right: 15px;
+}
+
+.btn-linkedin{
+  background-color: #5093E2;
+  color: #FFFFFF;
+}
+
+i{
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 8px; 
+}
+.about-interest{
+  padding: 0 30px
+}
+
+.about-interest-para{
+  margin-top: -15px;
+}
+
+.footer{
+  margin-top: 30px;
+  background-color: #161619;
+  padding: 30px 0 0 0;
+}
+
+.icons{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 25px;
+ margin-bottom: 20px;
+}
+
+.footer img{
+  width: 30px;
+}
